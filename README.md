@@ -1,3 +1,7 @@
+#Hugo LE COZ
+
+
+
 USART2 mode asynchrone baud rate = 115200 bit/s
 
 Clock configuration = 32 MHz 
@@ -12,7 +16,7 @@ Clock configuration = 32 MHz
 
 3. page 45
 4.
-5. valeur condensateur page ...
+5. valeur condensateur page 25
 6. CS =>
 7. LDAC => 
 8. MOSI => la broche MISO n'existe pas dans le DAC
