@@ -31,11 +31,20 @@ Clock configuration = 32 MHz
 5.
 
 ##3.2 LED simple
-
+![](C:\Users\hlecoz\TPuC\TP-C\LEDsimple.png)
 2. La valeur du prescaler est de 63
 
 
 ##3.3 LED avec timer
+
+1- On active le TIM21 
+
+2- Pour qu'il y est des interruption toutes les milli-secondes
+On met 16000 pour le prescaler et 1000 pour l'AutoReloadRegister (ARR)
+
+6- La routine de service d’interruption se trouve dans le fichier stm3210xx_it.c
+
+7- 
 
 
 
