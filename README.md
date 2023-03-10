@@ -10,17 +10,32 @@ Clock configuration = 32 MHz
 
 13. PB9 à la masse permet de choisir la selection du modes de boot
 
-14. Le role de L1, C5, C7 et un filtre passe bas du second ordre
+14. Le role de L1, C5, C7 est un filtre passe bas du second ordre qui permet de supprimer les parasites de l'alimentation
 
 ##**1.3 Le reste du schémas**
 
-3. page 45
+3. On peut retrouver sur la première page la valeur que doit avoir au minimum Cin et Cout de 0.47uF mais sur la page 3 on nous indique une valeur typique de 1uF
 4.
-5. valeur condensateur page 25
-6. CS =>
-7. LDAC => 
+5. Valeur condensateur page 25
+6. CS => Chip Select est activée à l'état bas et permettre ainsi l'établissement de la communication SPI
+7. LDAC => (Load DAC) Lorsque cette entrée est à 0, elle provoque un changement de la tension de sortie et lorsque la broche LDAC est activée, les valeurs enregistrées dans le registre de mise à jour sont chargées simultanément dans tous les DAC associés. Cela permet d'assurer une mise à jour cohérente et synchrone des sorties analogiques.
 8. MOSI => la broche MISO n'existe pas dans le DAC
 9.
-10. 
+10. cela se trouve dans la documentation du STLink page 26
+
+##**3.1 Activation des LL drivers**
+
+2. 
+3.
+4.
+5.
+
+##3.2 LED simple
+
+2. La valeur du prescaler est de 63
+
+
+##3.3 LED avec timer
+
 
 
