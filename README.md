@@ -31,7 +31,7 @@ Clock configuration = 32 MHz
 5.
 
 ##3.2 LED simple
-![](C:\Users\hlecoz\TPuC\TP-C\LEDsimple.png)
+![led](https://github.com/hugolc95/TP-C/blob/main/image/LEDsimple.png)
 2. La valeur du prescaler est de 63
 
 
@@ -47,4 +47,8 @@ On met 16000 pour le prescaler et 1000 pour l'AutoReloadRegister (ARR)
 7- 
 
 
+## 3.4 UART
 
+code photo telephone
+
+5- il manque le **&**, il faut donnée une adresse car la déclaration de SerialTransmit(**&** ch, 1); le premier parametre est un pointeur
