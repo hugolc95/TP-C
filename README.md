@@ -1,6 +1,8 @@
-#Hugo LE COZ
+#Hugo LE COZ 3DN 
 
-
+<p align="center">
+  <img src="https://github.com/hugolc95/TP-C/blob/main/image/carte.jpg?raw=true" alt="LED" width="400"/>
+</p>
 
 USART2 mode asynchrone baud rate = 115200 bit/s
 
@@ -19,7 +21,7 @@ Clock configuration = 32 MHz
 5. Valeur condensateur page 25
 6. CS => Chip Select est activée à l'état bas et permettre ainsi l'établissement de la communication SPI
 7. LDAC => (Load DAC) Lorsque cette entrée est à 0, elle provoque un changement de la tension de sortie et lorsque la broche LDAC est activée, les valeurs enregistrées dans le registre de mise à jour sont chargées simultanément dans tous les DAC associés. Cela permet d'assurer une mise à jour cohérente et synchrone des sorties analogiques.
-8. MOSI => la broche MISO n'existe pas dans le DAC
+8. MISO => la broche MISO n'existe pas dans le DAC
 9.
 10. cela se trouve dans la documentation du STLink page 26
 
@@ -27,11 +29,14 @@ Clock configuration = 32 MHz
 
 2. 
 3.
-4.
+4. __STATIC_INLINE est un modificateur de type de fonction qui indique au compilateur de traiter la fonction comme étant statique et en ligne.
 5.
 
 ##3.2 LED simple
-![led](https://github.com/hugolc95/TP-C/blob/main/image/LEDsimple.png)
+<p align="center">
+  <img src="https://github.com/hugolc95/TP-C/blob/main/image/LEDsimple.png?raw=true" alt="LED" width="400"/>
+</p>
+
 2. La valeur du prescaler est de 63
 
 
