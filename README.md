@@ -1,7 +1,7 @@
 #Hugo LE COZ 3DN 
 
 <p align="center">
-  <img src="https://github.com/hugolc95/TP-C/blob/main/image/carte.jpg?raw=true" alt="LED" width="400"/>
+  <img src="https://github.com/hugolc95/TP-C/blob/main/image/carte.png?raw=true" alt="LED" width="200"/>
 </p>
 
 USART2 mode asynchrone baud rate = 115200 bit/s
